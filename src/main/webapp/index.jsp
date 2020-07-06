@@ -6,11 +6,25 @@
         <title>Hello Java EE Continuous Delivery!</title>
     </head>
     <body>
-        <h1>Demo Project from Devops</h1>
-        <h1>.... TEST CODE .....</h1>
-        <h1>.... TEST CODE .....</h1>
-        <h1>.... TEST CODE .....</h1>
-        <h1>.... TEST CODE .....</h1>
+ <table border = "1" bordercolor = "green" bgcolor = "pink">
+         <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+         </tr>
+         <tr>
+            <td rowspan = "2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+         </tr>
+         <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+         </tr>
+         <tr>
+            <td colspan = "3">Row 3 Cell 1</td>
+         </tr>
+      </table>
 
 
 <table width="40%" bgcolor="yellow" align="center" border="2">
